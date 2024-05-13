@@ -48,11 +48,11 @@ def ahorcado():
             print("\nYa escogiste esa letra escoge otra")
 
         else:
-            print("\nEsta letra no es valida pendejo")
+            print("\nEsta letra no es valida")
 
     if vidas == 0:
         print(vidas_diccionario_visual [vidas])
-        print(f"perdiste, pendejo  la palabra era {palabra}")
+        print(f"perdiste, la palabra era {palabra}")
     else:
         print(f"ganaste la palabra era {palabra}")
 
